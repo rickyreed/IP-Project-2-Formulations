@@ -4,7 +4,7 @@ from gurobipy import Model, GRB, quicksum
 import numpy as np
 import time
 
-T = 2000  # Time horizon
+T = 168  # Time horizon
 L = 8  # Minimum-up time
 ℓ = 8  # Minimum-down time
 C_max = 455  # Maximum generation (MW)
